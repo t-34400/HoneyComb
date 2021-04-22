@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClInclude Include="HoneyComb.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HoneyComb.inl" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

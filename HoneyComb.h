@@ -15,7 +15,7 @@ private:
 
 	std::vector<honeyCombUnit_t> m_variables;
 
-	static constexpr NumberOfNearestNeighbor{ 3 };
+	static constexpr int NumberOfNearestNeighbor{ 3 };
 
 public:
 	HoneyComb();
@@ -26,3 +26,5 @@ public:
 	std::array<T&, NumberOfNearestNeighbor> getNextNeighborSite();
 	std::array<const T&, NumberOfNearestNeighbor> getNextNeighborSite() const;
 };
+
+#include "HoneyComb.inl"

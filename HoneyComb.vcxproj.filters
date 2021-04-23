@@ -18,8 +18,10 @@
     <ClInclude Include="HoneyComb.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="HoneyComb.inl">
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HoneyComb.inl">
       <Filter>ソース ファイル</Filter>
-    </ClInclude>
+    </None>
   </ItemGroup>
 </Project>

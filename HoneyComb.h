@@ -1,5 +1,6 @@
 #pragma once
 #include <array>
+#include <cmath>
 #include <tuple>
 #include <vector>
 
@@ -23,9 +24,10 @@ private:
 	std::vector<honeyCombUnit_t> m_variables;
 
 	static constexpr int NumberOfNearestNeighbor{ 3 };
+	static constexpr double sqrt3divided2{ std::sqrt(3) / 2.0 };
 
 public:
-	HoneyComb();
+	HoneyComb(int maxRow, int maxCol);
 
 	double getCoordinateX(std::size_t index, bool isAbove) const;
 	double getCoordinateY(std::size_t index, bool isAbove) const;
